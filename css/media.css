@@ -1,3 +1,16 @@
+@media(max-width: 920px){
+    .works__inner-item{
+        margin-right: 20px;
+        margin-bottom: 10px;
+       
+    }
+    .works__inner{
+        width: 80%;
+       justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+}
 @media(max-width: 870px){
     .items__inner {
         display: block;
@@ -20,7 +33,14 @@
    } 
    .footer__item-twitter {
     width: 50%;
+    }
 }
+@media(max-width: 650px){
+       .works__inner{
+        width: 100%;
+      
+    }
+
 }
 @media(max-width: 550px){
     .header__menu-btn{

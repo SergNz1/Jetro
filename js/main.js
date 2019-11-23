@@ -22,35 +22,7 @@ $(function(){
     
   });
      
-  $('.works__inner').slick({        
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        // centerMode: false,
-        arrows: false,
-        // variableWidth:true,
-        responsive: [
-          {
-            breakpoint: 970,
-            settings: {
-              slidesToShow: 3,
-             }
-          },
-           {
-            breakpoint:690,
-            settings: {
-              slidesToShow: 2,
-             }
-          }, 
-          {
-            breakpoint: 470,
-            settings: {
-              slidesToShow: 1,
-             }
-          }, 
-                         
-        ]
-  });
-
+  
 $(".header__menu-btn").on('click',function(){
     $('.header__menu > ul').slideToggle();
 });
